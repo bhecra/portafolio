@@ -60,16 +60,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Portada</a>
+              <a href="#portada">Portada</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Acerca de</a>
+              <a href="#about">Acerca de</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portafolio</a>
+              <a href="#portfolio">Portafolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contacto</a>
+              <a  href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
@@ -77,15 +77,16 @@
     </nav>
 
     <!-- Cabecera -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <header class="masthead" id="portada" style="background-image: url('img/home-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <img src="img/logo.png" alt="" width="50%" ; />
+              <img src="img/logo.png" alt="" width="50%"/>
 
-              <p>< Ingeniero Físico ></p>
+                <div class="text"><span class="text-change"></span></div>
+               
             </div>
           </div>
         </div>
@@ -524,8 +525,12 @@
     </footer>
 
     <!-- Bootstrap y Javascripts -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/lib/typed.js"></script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/clean-blog.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
   </body>
 </html>
